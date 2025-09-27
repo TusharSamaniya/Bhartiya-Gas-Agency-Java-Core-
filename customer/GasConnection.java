@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class getConnection extends Customers{
+public class GasConnection extends Customers{
 	
 	int numberOfClinder;
 	String date;
@@ -15,7 +15,7 @@ public class getConnection extends Customers{
 	Date lastDate = null;
 	SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
-	public getConnection(String name, String street, String area, String pincode, String mobileNumber, Date lastDate) {
+	public GasConnection(String name, String street, String area, String pincode, String mobileNumber, Date lastDate) {
 		super(name, street, area, pincode, mobileNumber);
 		this.lastDate = lastDate;
 	}
