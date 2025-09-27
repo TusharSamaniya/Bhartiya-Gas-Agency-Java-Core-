@@ -1,6 +1,8 @@
 package com.customer;
 
-public class Customers {
+import com.gasSupplier.gasAgency;
+
+public class Customers implements gasAgency{
 	
 	String name;
 	String Street;
